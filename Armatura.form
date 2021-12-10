@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Armatura">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="43" y="90" width="859" height="436"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-13948117"/>
+      <enabled value="false"/>
+      <foreground color="-4515545"/>
+    </properties>
+    <border type="empty">
+      <size top="0" left="0" bottom="0" right="0"/>
+    </border>
+    <children>
+      <grid id="a2064" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13948117"/>
+          <foreground color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="a5399" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13948117"/>
+              <foreground color="-2236190"/>
+            </properties>
+            <border type="none" title="Тип арматуры">
+              <title-color color="-5262925"/>
+            </border>
+            <children>
+              <component id="b0221" class="javax.swing.JButton" binding="НАЧАТЬПОИСКАРМАТУРЫButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8766131"/>
+                  <enabled value="true"/>
+                  <font/>
+                  <foreground color="-328193"/>
+                  <hideActionText value="false"/>
+                  <text value="НАЧАТЬ ПОИСК АРМАТУРЫ"/>
+                </properties>
+              </component>
+              <grid id="1df60" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="2005e" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                    </properties>
+                    <border type="none" title="">
+                      <font/>
+                    </border>
+                    <children>
+                      <grid id="66ee" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="93b4e" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-2236190"/>
+                              <enabled value="true"/>
+                              <foreground color="-2236190"/>
+                              <labelFor value=""/>
+                              <text value="мин. PN"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="68834" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                        </properties>
+                        <clientProperties>
+                          <html.disable class="java.lang.Boolean" value="false"/>
+                        </clientProperties>
+                        <border type="none">
+                          <font/>
+                          <title-color color="-4473925"/>
+                        </border>
+                        <children>
+                          <component id="894bb" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-2236190"/>
+                              <foreground color="-2236190"/>
+                              <text value="DN"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="28929" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="dda4d" class="javax.swing.JTextField" binding="textField1DN">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="50" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="8bc88" class="javax.swing.JTextField" binding="PNTextField" default-binding="true">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="50" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="ee840" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="b89f2" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="4" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                          <foreground color="-12500931"/>
+                        </properties>
+                        <border type="none" title=""/>
+                        <children>
+                          <component id="a2865" class="javax.swing.JRadioButton" binding="фланцеваяRadioButton">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Фланцевая"/>
+                            </properties>
+                          </component>
+                          <component id="d8c1" class="javax.swing.JRadioButton" binding="подПриваркуRadioButton">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Под приварку"/>
+                            </properties>
+                          </component>
+                          <component id="3bc2f" class="javax.swing.JRadioButton" binding="межфланцеваяRadioButton">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Межфланцевая"/>
+                            </properties>
+                          </component>
+                          <component id="cafa0" class="javax.swing.JRadioButton" binding="муфтоваяRadioButton">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Муфтовая"/>
+                            </properties>
+                          </component>
+                          <component id="9965d" class="javax.swing.JRadioButton" binding="штуцернаяRadioButton">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Штуцерная"/>
+                            </properties>
+                          </component>
+                          <component id="9e0e0" class="javax.swing.JRadioButton" binding="цапковаяRadioButton">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13948117"/>
+                              <foreground color="-2236190"/>
+                              <text value="Цапковая"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="72e43" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-12500931"/>
+                    </properties>
+                    <border type="none" title=""/>
+                    <children>
+                      <component id="66f56" class="javax.swing.JRadioButton" binding="проходнаяRadioButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                          <foreground color="-2236190"/>
+                          <text value="Проходная"/>
+                        </properties>
+                      </component>
+                      <component id="608ec" class="javax.swing.JRadioButton" binding="угроловаяRadioButton" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13948117"/>
+                          <foreground color="-2236190"/>
+                          <text value="Угроловая"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c01ce" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                    </properties>
+                    <border type="none" title=""/>
+                    <children>
+                      <component id="e71f8" class="javax.swing.JButton" binding="памяткаButton" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Справочная панель"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="7df9e" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                </properties>
+                <border type="none" title="">
+                  <font/>
+                  <color color="-2105376"/>
+                </border>
+                <children>
+                  <component id="819fd" class="javax.swing.JRadioButton" binding="radioButton1Задвижка">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Задвижка"/>
+                    </properties>
+                  </component>
+                  <component id="4d899" class="javax.swing.JRadioButton" binding="radioButton2Бабочка">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Повортная"/>
+                    </properties>
+                  </component>
+                  <component id="e3ff3" class="javax.swing.JRadioButton" binding="radioButtonNewozr">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Невозвратно-приёмная"/>
+                    </properties>
+                  </component>
+                  <component id="41f5e" class="javax.swing.JRadioButton" binding="radioButton5Обратный">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Невозвратная/обратная"/>
+                    </properties>
+                  </component>
+                  <component id="e3eaa" class="javax.swing.JRadioButton" binding="radioButton7Запорная">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Запорная"/>
+                    </properties>
+                  </component>
+                  <component id="c8099" class="javax.swing.JRadioButton" binding="radioButtonНожеваяЗадвижка">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <hideActionText value="false"/>
+                      <text value="Ножевая задвижка"/>
+                    </properties>
+                  </component>
+                  <component id="e4fc6" class="javax.swing.JRadioButton" binding="самозапорнаяRadioButton" default-binding="true">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Самозапорная"/>
+                    </properties>
+                  </component>
+                  <component id="cff1b" class="javax.swing.JRadioButton" binding="шароваяRadioButton" default-binding="true">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Шаровая"/>
+                    </properties>
+                  </component>
+                  <component id="4021b" class="javax.swing.JRadioButton" binding="фильтрRadioButton" default-binding="true">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Фильтр"/>
+                    </properties>
+                  </component>
+                  <component id="598e6" class="javax.swing.JRadioButton" binding="radioButton6ЗапорнаяССильфонупл">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Запорная с сильфонным уплотнением"/>
+                    </properties>
+                  </component>
+                  <component id="3528f" class="javax.swing.JRadioButton" binding="radioButton4НевозвратноЗапорная">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13948117"/>
+                      <foreground color="-2236190"/>
+                      <text value="Невозвратно-запорная"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="35774" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13948117"/>
+              <foreground color="-4519414"/>
+            </properties>
+            <border type="none" title="Материал корпуса">
+              <title-color color="-5262925"/>
+            </border>
+            <children>
+              <component id="177c2" class="javax.swing.JRadioButton" binding="бронзаRadioButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Бронза"/>
+                </properties>
+              </component>
+              <component id="69b55" class="javax.swing.JRadioButton" binding="стальRadioButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Сталь"/>
+                </properties>
+              </component>
+              <component id="1f6fa" class="javax.swing.JRadioButton" binding="чугунRadioButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Чугун"/>
+                </properties>
+              </component>
+              <component id="c28c3" class="javax.swing.JRadioButton" binding="чугунСШарГрафRadioButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Чугун с шар. граф."/>
+                </properties>
+              </component>
+              <component id="96584" class="javax.swing.JRadioButton" binding="латуньRadioButton">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Латунь"/>
+                </properties>
+              </component>
+              <component id="65069" class="javax.swing.JRadioButton" binding="нержСтальRadioButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13948117"/>
+                  <foreground color="-2236190"/>
+                  <text value="Нерж. сталь"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="fa717">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7d55b" class="javax.swing.JTextArea" binding="textAreaResultsSearchArm">
+            <constraints/>
+            <properties>
+              <dropMode value="USE_SELECTION"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="Times New Roman" size="12"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroupArmatuta">
+      <member id="66f56"/>
+      <member id="608ec"/>
+      <member id="65743"/>
+      <member id="608ec"/>
+      <member id="65743"/>
+      <member id="66f56"/>
+    </group>
+    <group name="buttonFlancGroup">
+      <member id="a2865"/>
+      <member id="3bc2f"/>
+      <member id="d8c1"/>
+      <member id="a2865"/>
+      <member id="3bc2f"/>
+      <member id="cafa0"/>
+      <member id="a2865"/>
+      <member id="9965d"/>
+      <member id="d8c1"/>
+      <member id="9e0e0"/>
+    </group>
+    <group name="buttonZaporGroup">
+      <member id="c308f"/>
+      <member id="e1414"/>
+      <member id="c308f"/>
+      <member id="5b873"/>
+      <member id="2c1dc"/>
+      <member id="aadc4"/>
+      <member id="6083a"/>
+      <member id="19c00"/>
+      <member id="c737c"/>
+      <member id="2e945"/>
+      <member id="a3103"/>
+      <member id="c0ec2"/>
+      <member id="e9f0e"/>
+      <member id="d6016"/>
+      <member id="e168b"/>
+    </group>
+    <group name="bodyComp">
+      <member id="177c2"/>
+      <member id="c28c3"/>
+      <member id="65069"/>
+      <member id="96584"/>
+      <member id="69b55"/>
+      <member id="1f6fa"/>
+    </group>
+    <group name="buttonGroupTypeZaporn">
+      <member id="7ffd1"/>
+      <member id="7ffd1"/>
+      <member id="8fb51"/>
+      <member id="e95c"/>
+      <member id="305dd"/>
+      <member id="f77b"/>
+      <member id="dd36a"/>
+      <member id="9262b"/>
+      <member id="fdd92"/>
+    </group>
+    <group name="zaporbuttonGroup1">
+      <member id="e3eaa"/>
+      <member id="e3eaa"/>
+      <member id="819fd"/>
+      <member id="4d899"/>
+      <member id="e3ff3"/>
+      <member id="3528f"/>
+      <member id="41f5e"/>
+      <member id="598e6"/>
+      <member id="c8099"/>
+      <member id="e4fc6"/>
+      <member id="cff1b"/>
+      <member id="4021b"/>
+    </group>
+  </buttonGroups>
+</form>
